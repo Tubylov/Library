@@ -1,0 +1,78 @@
+main{
+  width: 375px;
+  height: 100vh;
+  margin: 0px auto;
+}
+header{
+  width: 375px;
+  height: 60px;
+  background-color: #002538;
+  padding: 12px;
+}
+header h1{
+  width: auto;
+  height: 19px;
+  margin: 10px 100px 7px 57px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+section{
+  width: 100%;
+  height: calc(100vh - 120px);
+  position: relative;
+}
+button{
+  width: 74px;
+  height: 24px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+}
+.button_ADD{
+  background-color: #62A420;
+  margin: 0px 2px;
+}
+.button_YES{
+  background-color: #0079B8;
+  position: absolute;
+  right: 122px;
+  bottom: 28px;
+}
+.button_NO{
+  background-color: #E62700;
+  position: absolute;
+  right: 24px;
+  bottom: 28px;
+}
+.button_F{
+  width: 24px;
+  background-color: #62A420;
+}
+.button_D{
+  width: 24px;
+  background-color: #E62700;
+}
+.button_I{
+  width: 24px;
+  background-color: #0079B8;
+}
+@media only screen and (min-width: 376px) {
+  main{
+    width: 100%;
+  }
+  header{
+      width: auto;
+      
+  }
+}

@@ -1,0 +1,26 @@
+.Alert{
+    width: 281px;
+    height: 36px;
+    background-color: #C92100;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30px;
+}
+.Alert p{
+    margin: 0px;
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    top: 13px;
+    left: 38.4px;
+    position: absolute;
+}
+.Alert svg{
+    width: 16px;
+    height: 16px;
+    top: 10px;
+    left: 12px;
+    position: absolute;
+}
